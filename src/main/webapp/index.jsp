@@ -11,9 +11,6 @@
         
         <ul>
             <li>
-                <a href="/alexsnchzleiva/PruebaServlet">PruebaServlet</a>
-            </li>
-            <li>
                 <a href="prueba.htm">PruebaController</a>
             </li>
         </ul>

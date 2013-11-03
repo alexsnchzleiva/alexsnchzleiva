@@ -17,11 +17,7 @@
        default-autowire="byName">
 
     
-    <bean id="pruebaServlet" class="com.alexsnchzleiva.servlet.PruebaServlet"></bean>
-    
-    <bean id="pruebaController" class="com.alexsnchzleiva.controller.impl.PruebaControllerImpl"></bean>
-    <bean id="pruebaAbstractController" class="com.alexsnchzleiva.controller.mvc.PruebaAbstractController"></bean>
-    
+   
     <bean id="pruebaService" class="com.alexsnchzleiva.service.impl.PruebaServiceImpl"></bean>
     
     <bean id="pruebaDao" class="com.alexsnchzleiva.dao.impl.PruebaDaoImpl"></bean>
