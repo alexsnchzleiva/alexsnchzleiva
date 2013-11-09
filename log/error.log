@@ -1,3 +1,21 @@
 2013-11-03 18:32:53,394 ERROR [http-listener-1(4)] c.a.d.i.PruebaDaoImpl [PruebaAbstractController.java:35] null
 2013-11-03 18:36:31,620 ERROR [http-listener-1(1)] c.a.d.i.PruebaDaoImpl [PruebaAbstractController.java:35] null
 2013-11-03 18:57:14,619 ERROR [http-listener-1(2)] c.a.d.i.PruebaDaoImpl [PruebaAbstractController.java:42] ALEJANDRO
+2013-11-09 19:52:53,727 ERROR [http-listener-1(4)] o.h.e.j.s.SqlExceptionHelper [SqlExceptionHelper.java:144] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2013-11-09 19:52:53,802 ERROR [http-listener-1(4)] c.a.d.i.PruebaDaoImpl [PruebaServiceImpl.java:41] Could not open connection
+2013-11-09 21:52:43,762 ERROR [http-listener-1(2)] o.h.e.j.s.SqlExceptionHelper [SqlExceptionHelper.java:144] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2013-11-09 21:52:43,785 ERROR [http-listener-1(2)] c.a.d.i.PruebaDaoImpl [PruebaServiceImpl.java:41] Could not open connection
+2013-11-09 22:50:36,207 ERROR [http-listener-1(1)] o.h.e.j.s.SqlExceptionHelper [SqlExceptionHelper.java:144] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2013-11-09 22:50:36,227 ERROR [http-listener-1(1)] c.a.d.i.PruebaDaoImpl [PruebaServiceImpl.java:41] Could not open connection
+2013-11-09 22:50:36,228 ERROR [http-listener-1(1)] c.a.d.i.PruebaDaoImpl [PruebaAbstractControllerImpl.java:51] null
+2013-11-09 22:51:43,934 ERROR [http-listener-1(2)] o.h.e.j.s.SqlExceptionHelper [SqlExceptionHelper.java:144] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2013-11-09 22:51:43,966 ERROR [http-listener-1(2)] c.a.d.i.PruebaDaoImpl [PruebaServiceImpl.java:41] Could not open connection
+2013-11-09 22:52:50,970 ERROR [http-listener-1(2)] c.a.d.i.PruebaDaoImpl [PruebaAbstractControllerImpl.java:51] null

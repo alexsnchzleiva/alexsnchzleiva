@@ -15,5 +15,7 @@
     
     <body>
         
+        <H3><%=request.getAttribute("primero")%></H3>
+        
     </body>
 </html>

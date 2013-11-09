@@ -5,6 +5,8 @@ import com.alexsnchzleiva.dao.impl.PruebaDaoImpl;
 import com.alexsnchzleiva.service.PruebaService;
 import com.alexsnchzleiva.vo.PruebaVO;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
@@ -33,10 +35,19 @@ public class PruebaAbstractControllerImpl extends AbstractController implements 
         pruebaService = (PruebaService) ctx.getBean(PruebaService.class);
         
         List<PruebaVO> resultService = null;
-        ModelAndView mv = null;
-        
+        ModelAndView mv = new ModelAndView("prueba");
+        Map<String,String> map = new TreeMap();
+   
         try{
-            resultService = pruebaService.prueba();            
+            resultService = pruebaService.prueba(); 
+            
+            if(resultService != null && resultService.size() > 0){
+                for(PruebaVO pruebaVO : resultService){
+                    map.put("primero", pruebaVO.getNombre());
+                }
+            }
+            
+            mv.addAllObjects(map);
         }
         catch(Exception e){
             Log.error(e.getMessage());
